@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fa4f71;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #203c61;
+}
+
+.List ol {
+    margin: 10px 0 0 0;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-position: inside;
+    overflow-y: scroll;
+}
+
+.List li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+
+.List li span:nth-child(1) {
+    color: #fff;
+}
+
+.List li button {
+    background: #203c61;
+    border: 1px solid #203c61;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.List li button:hover {
+    color: #fff !important;
+}
+
+.listButtons {
+    display: flex;
+    gap: 10px;
+}

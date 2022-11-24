@@ -1,0 +1,13 @@
+.ant-modal-footer .ant-btn-primary {
+    background: #fa4f71;
+}
+
+.ant-modal-footer .ant-btn-primary:hover {
+    background: #fa4f71 !important;
+    opacity: .8;
+}
+
+.ant-modal-footer .ant-btn-default:hover {
+    border-color: #fa4f71 !important;
+    color: #fa4f71 !important;
+}

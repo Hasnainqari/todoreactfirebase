@@ -1,0 +1,62 @@
+/* 
+#17b1b9 blue
+#fa4f71 pink
+#203c61 dark blue
+#ff9d1e yellow
+#ddd7d9 grey */
+
+/* 
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../../fonts/Roboto/Roboto-Black.ttf');
+} */
+
+.Container {
+    width: 80%;
+    height: 75vh;
+    background: #17b1b9;
+    padding: 10px;
+    border: 2px solid #203c61;
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: Roboto-Bold;
+    margin: 10px 0 20px 0;
+}
+
+
+@media screen and (max-width:1024px) {
+    .Container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .List ol {
+        height: 45vh !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Container {
+        width: 100%;
+    }
+
+    .List ol li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .List ol li span:nth-child(2) {
+        width: 100%;
+    }
+
+    .List ol li span button {
+        width: 49.5%;
+    }
+}
