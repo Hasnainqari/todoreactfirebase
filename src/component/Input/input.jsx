@@ -57,7 +57,7 @@ const InputField = () => {
     return (
         <div className="InputField">
             <form onSubmit={submitted}>
-                <Input ref={inputRef} status='error' onChange={(e) => setCurrValue(e.target.value)} value={currValue} className='input' autoCorrect='off' style={{ borderRadius: '10', theme: '#2962ff', border: '#2962ff'}} size="large" placeholder="What do you want todo?" prefix={<FileAddOutlined />} />
+                <Input ref={inputRef} status='error' onChange={(e) => setCurrValue(e.target.value)} value={currValue} className='input' autoCorrect='off' style={{ borderRadius: '10', theme: '#2962ff', border: '#2962ff' }} size="large" placeholder="What do you want todo?" prefix={<FileAddOutlined />} />
                 <div className="buttons">
                     <Button onClick={addTodo}> Add Todo </Button>
                     <Button onClick={deleteAll}> Delete All </Button>
