@@ -1,21 +1,21 @@
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #fa4f71;
+    background-color:#ddd;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #203c61;
+    background: #2962ff;
 }
 
 .List ol {
     margin: 10px 0 0 0;
-    height: 48vh;
+    height: 43.2vh;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     list-style-position: inside;
     overflow-y: scroll;
 }
@@ -27,23 +27,29 @@
     padding: 0 10px 0 0;
 }
 
-.List li span:nth-child(1) {
+/* .List li span:nth-child(1) {
     color: #fff;
+} */
+.List{
+    font-family: Josefin;
+    font-size: 22px  ;
+    font-weight: 800;
 }
-
 .List li button {
-    background: #203c61;
-    border: 1px solid #203c61;
-    border-radius: 0;
+    background: #2962ff;
+    border: 1px solid #2962ff;
+    border-radius: 6px;
     color: #fff;
     font-weight: bold;
 }
 
 .List li button:hover {
+    opacity: 1.5 ;
     color: #fff !important;
 }
 
 .listButtons {
+    color: #fff;
     display: flex;
     gap: 10px;
 }

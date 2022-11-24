@@ -46,7 +46,7 @@ const ModalForEdit = ({ openingModal, openFunc, todoItem, todoList }) => {
                 confirmLoading={confirmLoading}
                 onCancel={handleCancel}
             >
-                {!confirmLoading ? <Input value={modalInput} onChange={(e) => setModalInput(e.target.value)} status='error' className='input' autoCorrect='off' style={{ borderRadius: '0', margin: '30px 0' }} size="large" placeholder="Edit Todo" prefix={<FileAddOutlined />} /> : ''}
+                {!confirmLoading ? <Input value={modalInput} onChange={(e) => setModalInput(e.target.value)} status='error' className='input' autoCorrect='off' style={{ borderRadius:  '0', margin: '30px 0'}} size="large" placeholder="Edit Todo" prefix={<FileAddOutlined />} /> : ''}
                 <p>{confirmLoading ? modalText : ''}</p>
             </Modal>
         </div>

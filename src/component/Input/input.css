@@ -1,25 +1,39 @@
 .InputField form {
+    color :#2962ff !important;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-
-.input {
-    color: #fa4f71;
+.anticon svg {
+    color: #2962ff;
 }
-
+.input {
+    font-family: Josefin !important;
+    color: #2962ff !important;
+    border: 3px solid #2962ff !important;
+}
+.input :focus{
+    color: #2962ff;
+    font-family: Josefin;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border-bottom: 2px solid #2962ff !important;
+}
+.input :hover{
+    border-bottom: 2px solid #2962ff !important;
+}
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
 }
-
 .buttons button {
-    width: 49.5%;
-    background: #fa4f71;
-    border: 1px solid #fa4f71;
-    border-radius: 0;
+    width: 15.7%;
+    margin-left: 10px;
+    background: #2962ff;
+    border: 1px solid #2962ff;
+    border-radius: 30;
     color: #fff;
     font-weight: bold;
 }

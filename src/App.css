@@ -1,17 +1,17 @@
-/* @font-face {
-  font-family: Roboto;
-  src: url('./fonts/Roboto/Roboto-Light.ttf');
-} */
+@font-face {
+  font-family: Josefin;
+  src: url("./assest/fonts/Josefin_Sans/static/JosefinSans-Light.ttf");
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: Roboto; */
+  font-family: Josefin;
 }
 
 body {
-  /* background: url('./images/background.jpg'); */
+  background: url('./assest/images/file.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

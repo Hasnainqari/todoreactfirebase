@@ -20,7 +20,7 @@ const List = ({ todoItems, delTodo }) => {
     return (
         <div className='List'>
             <ol>
-                {todoItems.value.map((v, i) => (
+                { todoItems.value.map((v, i) => (
                     <li key={i}>
                         <span>{v}</span>
                         <span className='listButtons'>
